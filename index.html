@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validation Page</title>
+</head>
+<style>
+    * {
+        margin: 10px;
+        margin-left: 15px;
+    }
+
+    #email {
+        width: 500px;
+        height: 25px;
+    }
+
+    #password {
+        width: 500px;
+        height: 25px;
+    }
+
+    #button {
+        width: 150px;
+        height: 25px;
+    }
+</style>
+
+<body>
+
+    <label>Email</label>
+
+    <br>
+    <input type="text" id="email" placeholder="Example@email.com"><br>
+    <div disabled id="emailmsg"></div>
+    <br>
+    <label>Password</label><br>
+
+    <input type="password" id="password" placeholder="Your password"><br>
+
+    <div disabled id="message"></div>
+    <div disabled id="pwdmsg"></div>
+    <br>
+
+    <button id="button" onclick="info()">Submit</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
